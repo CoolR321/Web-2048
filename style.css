@@ -25,6 +25,7 @@ header h1 {
     font-family: Arial; 
     font-weight: bold; 
     margin-top: 15px;
+    margin-right: 10px;
     text-align: left;
     color: #fff; 
     float: right;
@@ -48,11 +49,18 @@ header .header_bottom {
     position: relative;
 }
 
+.info {
+    height: 70px;
+    width: 300px;
+    float: left;
+}
+
 #WhatGame {
     font-family: Arial;  
     font-weight: bold;
-    font-size: 26px;
+    font-size: 20px;
     color: #8f7a66; 
+    text-align: left;
 }
 
 .aim {
@@ -62,10 +70,10 @@ header .header_bottom {
     float: left;
 }
 
-header #new_game_button { 
+header #new_game_button {
     display: block;
-    margin-top: 10px;
-    margin-right: 0px;
+    margin-top: 3px;
+    margin-left: 30px;
     width: 100px;
     padding: 10px 10px; 
     background-color: #8f7a66; 
@@ -77,7 +85,7 @@ header #new_game_button {
     font-size: 18px; 
     font-weight: bold; 
     text-align: center;
-    float: right;
+    float: left;
 }
 
 header #new_game_button:hover { 
@@ -124,6 +132,6 @@ header p {
     margin: 0 auto;
     font-family: Arial;  
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     color: #8f7a66; 
 }
