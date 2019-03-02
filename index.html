@@ -13,15 +13,20 @@
 <body>
     <header>
         <div class="header_top">
-            <h1>2048</h1>
-            <p class="score">Score</br><span id="score">0</span></p>
+            <div class="name"> 
+                <h1>2048</h1>
+            </div>
+            <div class="SS">
+                <p class="score">Score</br><span id="score">0</span></p>
+            </div>
         </div>
         <div class="header_bottom">
             <div class="info">
-                <span id="WhatGame">Awesome 2048 Game</span></br>
-                <p class="aim">Join the numbers and get to the 2048 tile!</p>
+                <p id="WhatGame">Awesome 2048 Game</p>
             </div>
-            <a href="javascript:new_game();" id="new_game_button">New Game</a>
+            <div class="play">
+                <a href="javascript:new_game();" id="new_game_button">New Game</a>
+            </div>
         </div>
     </header>
     <div id="grid_container">
@@ -43,7 +48,7 @@
         <div class="grid_cell" id="grid_cell_3_3"></div>
     </div>
     <div id="how">
-        HOW TO PLAY: </br>
+        HOW TO PLAY</br>
         Use your arrow keys to move the tiles. </br>
         When two tiles with the same number touch, </br>
         they merge into one!
